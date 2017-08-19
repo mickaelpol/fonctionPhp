@@ -81,7 +81,16 @@
 
 //---------------------------------Affichage des fonctions --------------------------------------//
 		
-		
+		switch ($operateur){
+
+			case "A" || "a":
+			echo $phraseResultatAdd;
+			break;
+
+			case "M" || "m":
+			echo $phraseResultatMult;
+			break;
+		}
 
 //------------------------------------------------------------------------------------------//
 		?>
