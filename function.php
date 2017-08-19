@@ -77,16 +77,5 @@ $resultatOperation = Operation ($number1, $operateur, $number2);
 	<!-- j'affiche une string + le nombre1 + l'opérateur + le nombre2 + le égale en string et enfin le résultat grace a ma fonction stocké dans la variable  -->
 </p>
 
-
-<p>	
-	<?php 
-
-	$number1
-
-	function Addition()
-
-	?>
-</p>
-
 </body>
 </html>
