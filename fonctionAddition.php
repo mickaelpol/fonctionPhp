@@ -108,11 +108,18 @@
 		//je stocke ma phrase resultat de la division dans une variable
 
 //---------------------------------Affichage des fonctions --------------------------------------//
-	
-echo $phraseResultatAdd;
-echo $phraseResultatSous;
-echo $phraseResultatMult;
-echo $phraseResultatDivide;
+
+		switch ($operateur){
+
+			case "a" || "A":
+			$resultatAdd;
+			echo $phraseResultatAdd;
+			break;
+
+			case "m" || "M":
+			$resultatMult;
+			echo $phraseResultatMult;
+		}
 
 //------------------------------------------------------------------------------------------------//
 		?>
