@@ -18,3 +18,7 @@ body {
 .marge-bot {
 	margin-bottom: 1em;
 }
+
+.table-hover > tbody > tr:hover {
+  background-color: #31B0D5;
+}

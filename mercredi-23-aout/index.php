@@ -25,6 +25,10 @@
 		include('pages/tableauAnnonce.php');
 	}
 
+	if ($p === "traitementForm") {
+		include('pages/traitementForm.php');
+	}
+
 	$content = ob_get_clean();
 	include('pages/templates/defaut.php');
 
