@@ -17,7 +17,7 @@ if($p === 'users'){
     include('./Pages/users.php');
 }
 
-if ($p === 'annonce') {
+if ($p === 'Annonce') {
 	include('./Pages/annonce.php');
 }
 
@@ -26,5 +26,5 @@ if ($p === 'trieAnnonce') {
 }
 
 $content = ob_get_clean();
-include('./Pages/accueil.php');
+include('./Pages/templates/defaut.php');
 ?>
