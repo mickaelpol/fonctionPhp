@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-<form method="GET" action="./traitementForm.php">
+<form method="POST" action="./traitementForm.php">
 	<div class="container marge-top">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4">
@@ -36,10 +36,8 @@
 				</div>
 
 
-
-
 				
-				<input class="btn btn-success" type="button" value="Submit" onclick="self.location.href='?p=traitementForm'"></input>
+				<input class="btn btn-success" type="Submit" value="Submit"></input>
 
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 <?php 
 
 
-	$nom = $_GET['n'];
-	$prenom = $_GET['p'];
-	$titre = $_GET['t'];
-	$prix = $_GET['P'];
-	$description = $_GET['T'];
+	$nom = $_POST['n'];
+	$prenom = $_POST['p'];
+	$titre = $_POST['t'];
+	$prix = $_POST['P'];
+	$description = $_POST['T'];
 
 
 	$reponse = $nom . $prenom . $titre . $prix . $description;
