@@ -1,0 +1,20 @@
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/
+body {
+	margin: 0;
+	padding:0;
+	font-size: 16px;
+}
+
+.marge-top {
+	margin-top: 1em;
+} 
+
+.marge-bot {
+	margin-bottom: 1em;
+}

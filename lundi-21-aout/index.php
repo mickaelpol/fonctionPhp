@@ -2,7 +2,7 @@
 if(isset($_GET['p'])){
     $p = $_GET['p'];
 }else{
-    $p = 'accueil';
+    $p = "accueil";
 }
 
 $content = ob_start();

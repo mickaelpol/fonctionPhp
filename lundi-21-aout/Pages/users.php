@@ -18,7 +18,7 @@ catch (Exception $e)
 		//a la page vois le message d'erreur et en passant qu'il vois le mot de passe de la BDD!!
 }
 
-$reponse = $bdd->query('SELECT * FROM  users');
+$reponse = $bdd->query('SELECT * FROM users');
 
 
 
@@ -37,6 +37,9 @@ $reponse = $bdd->query('SELECT * FROM  users');
 				<th><strong>Nom</strong></th>
 				<th><strong>Prenom</strong></th>
 			</tr>
+
+
+			
 			<?php 
 				while($donnees = $reponse->fetch()){
 

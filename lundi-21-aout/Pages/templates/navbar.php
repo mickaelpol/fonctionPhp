@@ -5,9 +5,9 @@
 		</div>
 		<ul class="nav navbar-nav">
 			<li><a href="?p=Rubriques">Rubriques</a></li>
-			<li><a href="?p=users">Users</a></li>
 			<li><a href="?p=Annonce">Annonce</a></li>
 			<li><a href="?p=trieAnnonce">Annonce par Users</a></li>
+			<li><a href="?p=users">Users</a></li>
 		</ul>
 	</div>
 </nav>
