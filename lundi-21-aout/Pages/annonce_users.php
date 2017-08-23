@@ -30,6 +30,15 @@ $reponse = $bdd->query('SELECT * FROM  annonce  INNER JOIN users ON id_user=id')
 	<h1 class="bg-primary text-center text-uppercase">Petite annonces</h1>
 </div>
 <div class="container">
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="col-md-1 col-md-offset-11">
+			<button class="btn btn-success btn-xs list-unstyled"><a href="?p=trieDecroissant">prix decroissant</a></button>
+		</div>
+	</div>
+</div>
+	
 	<table class="table table-hover">
 		<thead>
 			<tr>
@@ -40,21 +49,22 @@ $reponse = $bdd->query('SELECT * FROM  annonce  INNER JOIN users ON id_user=id')
 				<th><strong>Annonce</strong></th>
 				<th><strong>Prix</strong></th>
 			</tr>
+			
 			<?php 
-				while($donnees = $reponse->fetch()){
+			while($donnees = $reponse->fetch()){
 
-					?>
+				?>
 				<tr>
 					<td><?= $donnees['id_user'] ?></td>
 					<td><?= $donnees['last_name'] ?></td>
 					<td><?= $donnees['first_name']?></td>	
 					<td><?= $donnees['title'] ?></td>
 					<td><?= $donnees['description'] ?></td>
-					<td><?= $donnees['price'] ?></td>
+					<td><?= $donnees['price'] ?>€</td>
 				</tr>
-			<?php 
-				}
-				$reponse->closeCursor(); // termine le traitement de la requête !?>
+				<?php 
+			}
+			$reponse->closeCursor(); // termine le traitement de la requête !?>
 
 		</thead>
 	</table>

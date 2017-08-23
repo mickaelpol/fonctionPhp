@@ -25,6 +25,10 @@ if ($p === 'trieAnnonce') {
 	include('./Pages/annonce_users.php');
 }
 
+if ($p === 'trieDecroissant') {
+	include('./Pages/buttonTriePrix.php');
+}
+
 $content = ob_get_clean();
 include('./Pages/templates/defaut.php');
 ?>
