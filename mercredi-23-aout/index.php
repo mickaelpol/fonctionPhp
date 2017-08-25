@@ -29,6 +29,15 @@
 		include('pages/traitementForm.php');
 	}
 
+	if ($p === "userForm") {
+		include('pages/userForm.php');
+	}
+
+	if ($p === "traitementRecherche") {
+		include('pages/traitementRecherche.php');
+	}
+
+
 	$content = ob_get_clean();
 	include('pages/templates/defaut.php');
 

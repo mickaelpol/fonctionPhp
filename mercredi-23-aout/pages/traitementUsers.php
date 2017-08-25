@@ -3,9 +3,7 @@
 
 	$nom = $_POST['n'];
 	$prenom = $_POST['p'];
-	$titre = $_POST['t'];
-	$prix = $_POST['P'];
-	$description = $_POST['T'];
+	$age = $_POST['a'];
 
 
 	// $reponse = $nom . $prenom . $titre .  $description;
@@ -21,10 +19,10 @@
 
 	}
 
-	$bdd->query('INSERT INTO ann_annonce, uti_utilisateur (ann_titre, ann_description) VALUES ("'.$titre.'", "'.$description.'", "'.$prix.'")');
+	$bdd->query('INSERT INTO uti_utilisateur (uti_prenom, uti_nom, uti_age) VALUES ("'.$prenom.'", "'.$nom.'", "'.$age.'")');
 
 
 
+	header('location: ../index.php?p=utilisateurs');
 
 ?>
-

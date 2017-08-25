@@ -9,7 +9,7 @@ try {
 	die('Erreur :'. $e->getMessage());
 }
 
-$reponse = $bdd->query('SELECT ann_oid, ann_titre, uti_prenom, uti_nom FROM ann_annonce as a, uti_utilisateur as u WHERE a.uti_oid=u.uti_oid');
+$reponse = $bdd->query('SELECT ann_oid, ann_titre, ann_prix, uti_prenom, uti_nom FROM ann_annonce as a, uti_utilisateur as u WHERE a.uti_oid=u.uti_oid');
 
 
 ?>
@@ -27,6 +27,7 @@ $reponse = $bdd->query('SELECT ann_oid, ann_titre, uti_prenom, uti_nom FROM ann_
 			<tr>
 				<th>Id-annonce</th>
 				<th>Titre</th>
+				<th>Prix</th>
 				<th>Prenom</th>
 				<th>Nom</th>
 			</tr>
@@ -40,6 +41,7 @@ $reponse = $bdd->query('SELECT ann_oid, ann_titre, uti_prenom, uti_nom FROM ann_
 				<tr>
 					<td><?= $donnees['ann_oid'] ?></td>
 					<td><?= $donnees['ann_titre'] ?></td>
+					<td><?= $donnees['ann_prix'] ?></td>
 					<td><?= $donnees['uti_prenom'] ?></td>
 					<td><?= $donnees['uti_nom'] ?></td>
 				</tr>
