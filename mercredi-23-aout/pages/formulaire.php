@@ -17,17 +17,17 @@
 
 				<div class="form-group">
 					<label for="titre">titre de l'annonce</label>
-					<input id="titre" type="text" name="t" class="form-control" required>
+					<input id="titre" type="text" name="t" class="form-control" >
 				</div>
 
 				<div class="form-group">
 					<label for="prix">Prix</label>
-					<input id="prix" type="number" name="P" class="form-control" required></input>
+					<input id="prix" type="number" name="P" class="form-control" ></input>
 				</div>
 
 				<div class="form-group">
 					<label for="description">Description</label>
-					<textarea rows="5" id="description" type="text" name="T" class="form-control" required ></textarea>
+					<textarea rows="5" id="description" type="text" name="T" class="form-control"  ></textarea>
 				</div>
 
 

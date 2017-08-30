@@ -12,17 +12,17 @@
 			<div class="col-md-4 col-md-offset-4">
 				<div class="form-group">
 					<label for="nom">Nom</label>
-					<input id="nom" type="text" name="n" class="form-control" required>
+					<input id="nom" type="text" name="n" class="form-control" >
 				</div>
 
 				<div class="form-group">
 					<label for="prenom">Prenom</label>
-					<input id="prenom" type="text" name="p" class="form-control" required>
+					<input id="prenom" type="text" name="p" class="form-control" >
 				</div>
 
 				<div class="form-group">
 					<label for="age">Age</label>
-					<input id="age" type="number" name="a" class="form-control" required>
+					<input id="age" type="number" name="a" class="form-control" >
 				</div>
 
 				

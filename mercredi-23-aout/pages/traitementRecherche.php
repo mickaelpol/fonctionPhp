@@ -1,7 +1,7 @@
 <?php 
 
-$nom = $_GET['R'];
-$prenom = $_GET['R'];
+$nom = $_POST['R'];
+$prenom = $_POST['R'];
 
 
 
@@ -25,18 +25,13 @@ $reponse = $bdd->query($sql);
 
 ?>
 
-<div class="container marge-top bg-primary">
+<div class="container marge-top">
 	<div class="row">
 		<div class="col-xs-12">
 			<h3 class="text-center text-uppercase page-header">
 				users
 			</h3>
-			<blockquote>
-				Resultat pour votre recherche : 
-				<strong>
-					" <?= $nom ?> "
-				</strong>
-			</blockquote>
+			<p>Resultat pour votre recherche : <strong>" <?= $nom ?> "</strong> </p>
 
 			<div class="container">
 				<table class="table table-hover">

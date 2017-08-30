@@ -1,9 +1,9 @@
 <?php 
 
 
-	$nom = $_POST['n'];
-	$prenom = $_POST['p'];
-	$age = $_POST['a'];
+	$nom = htmlspecialchars($_POST['n']);
+	$prenom = htmlspecialchars($_POST['p']);
+	$age = htmlspecialchars($_POST['a']);
 
 
 	// $reponse = $nom . $prenom . $titre .  $description;
@@ -19,7 +19,9 @@
 
 	}
 
-	$bdd->query('INSERT INTO uti_utilisateur (uti_prenom, uti_nom, uti_age) VALUES ("'.$prenom.'", "'.$nom.'", "'.$age.'")');
+	$sql = sprintf('INSERT INTO uti_utilisateur (uti_prenom, uti_nom, uti_age) VALUES ("'.$prenom.'", "'.$nom.'", "'.$age.'")');
+
+	$bdd->query($sql);
 
 
 

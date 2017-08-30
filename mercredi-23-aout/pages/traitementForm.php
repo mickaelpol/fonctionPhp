@@ -6,6 +6,7 @@
 	$titre = $_POST['t'];
 	$prix = $_POST['P'];
 	$description = $_POST['T'];
+	var_dump($nom);
 
 
 	// $reponse = $nom . $prenom . $titre .  $description;

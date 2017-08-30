@@ -10,7 +10,7 @@
 			<li><a href="?p=formulaire">Ajouter une annonce</a></li>
 			<li><a href="?p=tableauAnnonce">Afficher les annonces</a></li>
 		</ul>
-		<form class="navbar-form navbar-right" action="./pages/traitementRecherche.php">
+		<form class="navbar-form navbar-right" action="index.php?p=traitementRecherche" method="post">
 			<div class="form-group">
 				<input name="R" placeholder="Recherche" class="form-control left-rounded" type="text">
 			</div>

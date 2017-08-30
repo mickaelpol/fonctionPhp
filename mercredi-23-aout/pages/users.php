@@ -20,15 +20,12 @@ $reponse = $bdd->query('SELECT * FROM  uti_utilisateur');
 
 <div class="form-group">
 	<label for="nom">Nom/Prenom</label>
-	<select id="nom" type="text" name="n" class="form-control" required>
-		<?php while ($donnees = $reponse->fetch()) { ?>
+	<select id="nom" type="text" name="n" class="form-control">
+		<?php while ($donnees = $reponse->fetch()) {
+			echo "<option value=" .$donnees['uti_oid'] . ">" .$donnees['uti_nom'] . " " .$donnees['uti_prenom'] . "</option>";
+		}
+		$reponse->closeCursor();
+		?>
 
-		<option><?= $donnees['uti_nom'] . " ". $donnees['uti_prenom'] ?></option>	
-
-		<?php 
-	}
-	$reponse->closeCursor();
-	?>
-
-</select>
+	</select>
 </div>
