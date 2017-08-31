@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 text-center back-flou">
+		<div class="col-xs-12 text-center back-flou-xs">
 			<h1 class="text-color text-uppercase">Bienvenue sur mon CV en ligne
 			</h1>
 			<small class="text-capitalize text-color">CV rédigé en jquery php et bootstrap</small>

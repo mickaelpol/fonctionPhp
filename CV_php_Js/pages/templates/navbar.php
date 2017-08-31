@@ -10,8 +10,8 @@
 			<li><a href="?p=loisirs"><span class="glyphicon glyphicon-headphones"></span> Loisirs</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Me situer</a></li>
+			<li><a href="?p=contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+			<li><a href="?p=localiser"><span class="glyphicon glyphicon-map-marker"></span> Me situer</a></li>
 		</ul>
 	</div>
 </nav>
