@@ -79,3 +79,6 @@ small {
 .font-size-20 {
 	font-size: 20px;
 }
+.border {
+	border : 1px solid black;
+}

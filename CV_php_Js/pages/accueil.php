@@ -11,7 +11,7 @@
 <!-- Carousel -->
 <div class="container">
 	<br>
-	<div id="myCarousel" class="carousel slide border" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -19,6 +19,8 @@
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 			<li data-target="#myCarousel" data-slide-to="3"></li>
 			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
@@ -33,7 +35,7 @@
 			</div>
 
 			<div class="item ">
-				<img src="image/methode_agiles.png" alt="ordinateur" width="460" height="345">
+				<img src="image/methode_agiles.png" alt="image de methodes agiles" width="460" height="345">
 				<div class="carousel-caption back-flou">
 					<h3><a class="text-color" class="text-color" href="?p=competences"><span class="glyphicon glyphicon-cog"></span> Methodes agiles</a></h3>
 					<p class="text-color">Apprentissage des méthodes agiles tel que scrum</p>
@@ -50,7 +52,7 @@
 
 
 			<div class="item">
-				<img src="image/slide_pedagogia1.jpg" alt="Flower" width="460" height="345">
+				<img src="image/slide_pedagogia1.jpg" alt="image des diplomes" width="460" height="345">
 				<div class="carousel-caption back-flou">
 					<h3><a class="text-color" href="?p=diplomes"><span class="glyphicon glyphicon-education"></span> Diplômes</a></h3>
 					<p>Diplomes obtenu , année d'optention</p>
@@ -62,6 +64,22 @@
 				<div class="carousel-caption back-flou">
 					<h3><a class="text-color" href="?p=loisirs"><span class="glyphicon glyphicon-headphones"></span> Loisirs</a></h3>
 					<p>Passion, Loisirs, Passe temps</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="image/Contact-us.jpg" alt="image pour me contacter" width="460" height="345">
+				<div class="carousel-caption back-flou">
+					<h3><a class="text-color" href="?p=contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></h3>
+					<p>pour me contacter et/ou prévoir une rencontre</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="image/map.jpg" alt="image pour me situer sur une map" width="460" height="345">
+				<div class="carousel-caption back-flou">
+					<h3><a class="text-color" href="?p=localiser"><span class="glyphicon glyphicon-map-marker"></span> Me situer</a></h3>
+					<p>pour me situer sur une map afin de faciliter notre rencontre</p>
 				</div>
 			</div>
 
