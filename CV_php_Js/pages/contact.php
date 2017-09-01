@@ -1,5 +1,5 @@
 <!-- Formulaire de contact -->
-<div class="container marge-top back-flou-xs">
+<div id="contactForm" class="container marge-top back-flou-xs">
 	<div class="row">
 		<div class="col-xs-offset-2 col-xs-8">
 			<form class="form-horizontal marge-top-xs" method="POST" action="index.php?p=traitContact">
@@ -46,14 +46,11 @@
 					</div>
 				</div>
 				
-				<!-- Bouton reset et validation du formulaire + loader caché -->
+				<!-- Bouton reset et validation du formulaire -->
 				<div class="row form-group">
-					<div id="loader" class="col-xs-2 col-xs-offset-2 from-control">
-						<img src="image/loading.GIF" alt="GIF de chargement">
-					</div>
-					<div class="col-xs-4 col-xs-offset-3">
+					<div class="col-xs-4 col-xs-offset-7">
 						<input class="btn btn-md btn-danger" type="reset">
-						<input id="valid" class="btn btn-md btn-success" type="submit">
+						<input name="validez" id="valid" class="btn btn-md btn-success" type="submit">
 					</div>
 				</div>
 
