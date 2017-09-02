@@ -30,7 +30,7 @@
 
 				<!-- input téléphone name T -->
 				<div class="form-group">
-					<label class="control-label col-xs-2" for="téléphone">Tél</label>
+					<label class="control-label col-xs-2" for="téléphone">N° Tél</label>
 					<div class="col-xs-8">
 						<input name="T" class="form-control font-size-20" id="téléphone" type="tel">
 					</div>
