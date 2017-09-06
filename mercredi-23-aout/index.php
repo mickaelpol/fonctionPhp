@@ -36,7 +36,9 @@
 	if ($p === "traitementRecherche") {
 		include('pages/traitementRecherche.php');
 	}
-
+	if ($p === "Inscription") {
+		include('pages/ajout_utilisateurs.php');
+	}
 
 	$content = ob_get_clean();
 	include('pages/templates/defaut.php');

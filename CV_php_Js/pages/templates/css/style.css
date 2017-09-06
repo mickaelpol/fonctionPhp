@@ -82,3 +82,6 @@ small {
 .border {
 	border : 1px solid black;
 }
+.marge-left {
+	margin-left: 10px;
+}

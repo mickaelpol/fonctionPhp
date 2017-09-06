@@ -5,7 +5,8 @@
 		</div>
 
 		<ul class="nav navbar-nav pull-left">
-			<li><a href="?p=userForm">Inscription</a></li>
+			<!-- <li><a href="?p=userForm">Inscription</a></li> -->
+			<li><a href="?p=Inscription">Inscription</a></li>
 			<li><a href="?p=utilisateurs">Utilisateurs</a></li>
 			<li><a href="?p=formulaire">Ajouter une annonce</a></li>
 			<li><a href="?p=tableauAnnonce">Afficher les annonces</a></li>
