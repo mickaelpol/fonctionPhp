@@ -1,18 +1,3 @@
-<?php
-
-session_start();
-
-if (empty($_SESSION['pseudo'])) {
-	$_SESSION['pseudo'] = 1;
-}
-else {
-	$_SESSION['pseudo']++;
-};
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,8 +9,11 @@ else {
 </head>
 <body>
 
-	
-	<p>vous avez visité : <strong><?= $_SESSION['pseudo']; ?></strong> fois mon site</p>
-	
+<?php include('navbar.php') ?>
+
+<?= $content ?>
+
+<?php include('footer.php') ?>
+
 </body>
 </html>
