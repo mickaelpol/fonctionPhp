@@ -14,7 +14,7 @@ if ($p === 'home') {
 }
 
 if ($p === 'inscription') {
-	include('page/inscription.php');
+	include('page/connection.php');
 }
 
 if ($p === 'chat') {

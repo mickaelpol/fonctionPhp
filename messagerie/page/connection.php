@@ -1,5 +1,5 @@
 <div class="container-fluid text-center text-uppercase  bg-primary">
-	<h1 class="page-header">inscription</h1>
+	<h1 class="page-header">connection</h1>
 </div>
 
 <div class="container">
